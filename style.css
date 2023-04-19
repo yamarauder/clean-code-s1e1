@@ -13,12 +13,21 @@
   text-align: right;
 }
 
+.img-content {
+  margin: 0;
+  padding: 0;
+}
+
 .header .header-img {
   width: 100%;
 }
 
 .header .more-inf {
   font-family: fantasy, cursive;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 @media (max-width: 768px) {
@@ -77,7 +86,7 @@
 /* Heading */
 
 .list-name,
-.label.new-task-label {
+.new-task-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -106,7 +115,7 @@
 
 /* New Task */
 
-.label.new-task-label {
+.new-task-label {
   display: block;
   margin: 0 0 20px;
 }
@@ -155,7 +164,7 @@
 
 .list#completed-tasks .label {
   text-decoration: line-through;
-  color: #888;
+  color: #888; 
 }
 
 /* Edit Task */
